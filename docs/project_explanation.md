@@ -1,6 +1,6 @@
 # Thuyết minh Luồng Hoạt Động Cốt Lõi Của Dự Án AI (Project Explanation)
 
-Tài liệu này được biên soạn để hỗ trợ đọc hiểu nhanh cơ chế hoạt động của đồ án Nhận diện Thư Rác (Spam Classification). Phục vụ cho việc viết báo cáo, làm Slide và bảo vệ (defense) trước hội đồng Giảng viên.
+Tài liệu này được biên soạn để hỗ trợ đọc hiểu nhanh cơ chế hoạt động của đồ án Nhận diện Thư Rác (Spam Classification).
 
 Dự án hoạt động như một cỗ máy 4 bước, tuân thủ nguyên lý biến ngôn ngữ tự nhiên thành Toán học phân tích.
 
@@ -33,6 +33,3 @@ Dự án hoạt động như một cỗ máy 4 bước, tuân thủ nguyên lý 
 - Thêm nữa, thông qua sức mạnh nội tâm đó, tính năng rút lõi các Tín Hiệu Spam Nhạy cảm nhất còn được bơm ra chân Web bằng thuật toán tạo Mây Từ Khoá **(Word Cloud)** để mọi người đắm chìm vào.
 
 ---
-
-> 💡 **Tóm gọn 1 câu cực chất để chốt sale với Hội đồng thi:**
-> *"Dự án của nhóm chúng em hoạt động dựa trên cơ chế chuẩn hóa dữ liệu đa ngôn ngữ thành các ma trận tần suất mức TF-IDF có nhận diện từ kép (N-gram), sau đó sử dụng thống kê định lý Bayes nhằm suy luận ranh giới tập hợp kết hợp với cơ chế cốt lõi Minh bạch XAI tự diễn giải điểm số của từng từ dưới dạng HTML Rendering để chẩn đoán Thư Lừa Đảo một cách có căn cứ rõ ràng nhất."*
