@@ -2,9 +2,7 @@
 
 Dự án này là một ứng dụng web giúp nhận diện tin nhắn rác (spam) hoặc tin nhắn bình thường (ham) bằng các mô hình học máy. Giao diện được xây dựng bằng Python với thư viện Streamlit.
 
-## 🚀 Hướng Dẫn Tải File Và Cài Đặt Dự Án Cho Bạn Bè (Quick Start Guide)
-
-Để tải project này về và chạy trên máy tính cá nhân, bạn chỉ cần làm theo 4 bước cực kỳ đơn giản dưới đây:
+##  Hướng Dẫn Tải File Và Cài Đặt (Quick Start Guide)
 
 ### Bước 1: Tải mã nguồn dự án
 
