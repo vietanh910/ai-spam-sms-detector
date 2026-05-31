@@ -152,12 +152,23 @@ with col2:
             use_container_width=True, 
             hide_index=True
         )
+    else:
+        st.info("Chưa có tin nhắn nào được phân tích.")
+
+    # -----------------
+    # ĐÁM MÂY TỪ KHÓA
+    # -----------------
+    st.markdown("---")
+    st.subheader("Đám mây từ khóa (Spam Word Cloud)")
+    st.write("Bản đồ nhiệt biểu diễn các từ khóa nguy hiểm nhất mà AI vừa học:")
 
     try:
+        # Rút trích từ điển và tần suất Spam từ não bộ mô hình Naive Bayes
         feature_names = vectorizer.get_feature_names_out()
         spam_counts = model.feature_count_[1] 
         word_freq = dict(zip(feature_names, spam_counts))
         
+        # Vẽ đám mây
         wc = WordCloud(width=800, height=450, background_color='white', colormap='Reds', max_words=100)
         wc.generate_from_frequencies(word_freq)
         
