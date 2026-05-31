@@ -9,8 +9,7 @@ Dự án này là một ứng dụng web giúp nhận diện tin nhắn rác (sp
 Bạn có thể tải code về máy bằng 1 trong 2 cách sau:
 - **Cách 1 - Dùng Git:** Mở Terminal / Command Prompt hoặc Git Bash rồi chạy lệnh sau:
   ```bash
-  git clone https://github.com/langvietthanh/BTL_AI.git
-  cd BTL_AI
+  git clone https://github.com/vietanh910/ai-spam-sms-detector
   ```
 - **Cách 2 - Không dùng Git:** Bấm vào nút màu xanh lá cây `<> Code` trên Github, chọn **Download ZIP**, sau đó giải nén file `.zip` vừa tải về, và mở thư mục đã giải nén ra trong Terminal/Command Prompt.
 
